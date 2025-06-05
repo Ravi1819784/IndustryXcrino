@@ -1,0 +1,263 @@
+/* Header */
+
+.Fin-Tech-Header {
+  width: 100%;
+}
+.Fin-tech-background-image {
+  width: 100%;
+  height: 260px;
+  background-image: url(./src/Pages/Image/fintech1.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.solution-btn button {
+  display: flex;
+  gap: 10px;
+  width: 236px;
+  height: 53px;
+  background-color: #0070ff;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50px;
+}
+.solution-btn button .home-link {
+  color: #bbb7b7;
+  font-size: 0.85rem;
+}
+.solution-btn button .home-link:hover {
+  color: rgb(49, 49, 49);
+}
+.solution-btn button .arrow,
+.FinTechSolution-link {
+  color: white;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+.text {
+  position: relative;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  padding-block: 80px;
+}
+.text h3 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 12px;
+}
+.text h1 {
+  color: white;
+  font-size: 2.1rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 14px;
+}
+
+/* section-1 */
+
+.common-section {
+  width: 100%;
+}
+.main-section1 {
+  width: 100%;
+  min-height: 80vh;
+}
+
+.section1 {
+  display: flex;
+  max-width: 1080px;
+  margin-inline: auto;
+  gap: 100px;
+}
+.left-section1 {
+  display: flex;
+  flex: 1;
+  min-width: 200px;
+  margin-top: 120px;
+  padding-left: 20px;
+}
+.left-section1 img {
+  height: 450px;
+  width: 500px;
+  border-radius: 15px;
+}
+.right-section1 {
+  display: flex;
+  flex: 1;
+  min-width: 250px;
+  margin-top: 50px;
+  padding-left: 30px;
+}
+
+.right-section1-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right-section1-text {
+  font-size: 1.2rem;
+  color: rgb(37, 37, 37);
+}
+.right-section1-text p {
+  font-size: 0.97rem;
+  color: #000109c2;
+  line-height: 2rem;
+}
+
+
+
+
+/* section2 */
+
+.main-section3{
+    width: 100%;
+    background-color: #fffdfd ;
+}
+.section3{
+    max-width: 1080px;
+    display: flex;
+    gap: 50px;
+    margin-inline: auto;
+padding-inline: 30px;
+}
+.section31{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+.section31 h1{
+    color: black;
+    font-size: 2.2rem;
+    line-height: 3rem;
+}
+.section31 p{
+    color: rgb(18, 18, 18);
+    line-height: 1.8rem;
+}
+.p1{
+        color: rgb(18, 18, 18);
+    margin-top: 25px;
+    line-height: 1.8rem;
+}
+
+.section31 h3{
+    color: #42a1f9;
+    font-size: 0.99rem;
+}
+.section31 h2{color: #42a1f9;
+font-size: 2.4rem;
+}
+.book-icon{
+  height: 50px;
+  width: 50px;
+  margin-top: 40px;
+}
+.section32{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section32 h2{
+  font-size: 1.8rem;
+  color: rgb(37, 37, 37);
+}
+.section32 p{
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+
+.main-section32{
+  display: flex;
+  
+}
+
+.digital-icon{
+  height: 50px;
+  width: 50px;
+  margin-top: 40px;
+}
+
+/* media-query-991px */
+
+@media (max-width: 991px) {
+  .left-section1 img {
+    height: 471px;
+    width: 400px;
+  }
+
+   .section3{
+    flex-direction: column;
+  }
+
+  .section31 h1{
+    font-size: 1.5rem;
+      position: relative;
+    bottom: 10px;
+  }
+
+  .section31 h3{
+    font-size: 0.9rem;
+  }
+  .p1{
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 40px;
+  }
+
+.section31 p{
+      font-size: 0.9rem;
+       position: relative;
+    bottom: 40px;
+}
+  .section31 h2{
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 20px;
+  }
+  .section32{
+    position: relative;
+    bottom: 90px;
+    align-items: center;
+  }
+
+  .section32 h2{
+    font-size: 1.2rem;
+  }
+  .section32 p{
+    font-size:0.9rem ;
+  }
+  .digital-icon{
+  }
+}
+
+
+/* media query-768px */
+
+@media (max-width: 768px) {
+  .section1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-section1 img {
+    width: 96%;
+  }
+  .right-section1 {
+    position: relative;
+    bottom: 120px;
+  }
+  .right-section1-text h1 {
+    font-size: 1.42rem;
+  }
+  .right-section1-text p {
+    font-size: 0.82rem;
+    line-height: 1.5rem;
+  }
+
+ 
+}
